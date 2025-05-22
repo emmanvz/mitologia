@@ -1,60 +1,155 @@
-<!doctype html>
-<html> 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Dioses Griegos</title>
-	<style>
-		img {
-			height: 100px;
-		}
-		img#logo {
-			height: 50px;
-		}
-		img#banner {
-			height: 150px;
-			width: 100%;
-		}
-		.content td {
-			padding: 10px;
-		}
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<table width="800" border="1" cellpadding="0" background-color="red">
-		<tr align="center">
-			<td>
-				<img src="imagenes/mitologia-griega.png" alt="mitologia griega logo" id="logo" />
-			</td>
-			<td width="50">Galería</td>
-			<td colspan="2">Contacto</td>
-		</tr>
-		<tr>
-			<td colspan="4">
-				<img src="imagenes/banner.png" alt="Dioses griegos Banner" id="banner" />
-			</td>
-		</tr>
-		<tr class="content" align="center">
-			<td width="200" >
-				<img src="imagenes/zeus.png" alt="zeus Logo" />
-			</td>
-			<td width="200"> Zeus era el rey del panteón y supervisor del universo. Se lo consideraba el dueño del trueno, del relámpago y de la energía del mundo.</td>
-			<td width="200">
-				<img src="imagenes/poseidon Logo.jpg" alt="poseidon Logo" />
-			</td>
-			<td width="200">Poseidón era el dios de los mares y de los terremotos. Se lo consideraba uno de los dioses de la ira, y su enojo podía generar tormentas, maremotos, monstruos marinos y naufragios.</td>
-		</tr>
-		<tr class="content" align="center">
-			<td width="200">
-				<img src="imagenes/hera Logo.jpg" alt="hera Logo" />
-			</td>
-			<td width="200"> Hera fue la diosa griega del matrimonio, de las labores del hogar, de la maternidad y de la familia. </td>
-			<td width="200">
-				<img src="imagenes/ares Logo.png" alt="ares Logo" />
-			</td>
-			<td width="200">Ares fue el dios griego de la guerra. Se lo asociaba con la valentía, la tenacidad, la fuerza y la virilidad masculina.</td>
-		</tr>
-	</table>
+
+	<header>
+		<div class="menu container">
+			<a href="#" class="logo">Menu</a>
+			<input type="checkbox" id="menu">
+			<label for="menu"><img class="mitologoa-icono" src="Imagenes/mitologia-griega.png" alt=""></label>
+
+			<nav class="navbar">
+				<ul>
+					<li><a href="a">Inicio</a></li>
+					<li><a href="a">Servicios</a></li>
+					<li><a href="a">Portfolio</a></li>
+					<li><a href="a">Contacto</a></li>
+				</ul>
+
+			</nav>
+
+		</div>
+
+		<div class="header-text">
+			<p>Dioses Griegos</p>
+			<h1>Dioses del Olimpo</h1>
+			<a href="#" class="btn-1">Mas informacion</a>
+		</div>
+
+
+	</header>
+
+	<main class="services">
+
+		<div class="container">
+
+			<h2>¿Quiénes eran?</h2>
+			<p class="txt-1">
+				Los dioses griegos de la Antigüedad eran el conjunto de deidades que formaban parte del panteón de la
+				mitología de la Antigua Grecia (800-150 a. C.). Estas deidades eran adoradas por los griegos y
+				desempeñaban un papel importante en varios aspectos de su cultura. Se creía que tenían control sobre los
+				fenómenos naturales y que podían influenciar el destino humano.
+			</p>
+
+			<div class="group-services">
+				<div class="service">
+					<img src="Imagenes/zeus.png" alt="">
+					<h3>Zeus</h3>
+					<p> El rey de los dioses y padre de todas las deidades y los mortales. Dios
+						del cielo, el trueno, los relámpagos y la lluvia</p>
+				</div>
+				<div class="group-services">
+					<div class="service">
+						<img src="Imagenes/poseidon Logo.jpg" alt="">
+						<h3>Poseidón</h3>
+						<p> Dios de los mares y los ríos. Se le representaba, habitualmente, con cola de sirena y con un
+							tridente en la mano.</p>
+					</div>
+					<div class="group-services">
+						<div class="service">
+							<img src="Imagenes/hades logo.jpg" alt="">
+							<h3>Hades</h3>
+							<p> Dios y gobernante de los infiernos y el inframundo o mundo de los muertos.</p>
+						</div>
+					</div>
+
+				</div>
+
+	</main>
+
+	<section class="Portfolio">
+		<div class="g-portfolio">
+			<div class="portfolio-txt-1">
+				<h2>Hera, Afrodita y Hermes</h2>
+				<p>
+					Hera era la diosa griega del matrimonio, de las labores del hogar, de la maternidad y de la familia.
+					Afrodita, por otro lado, era la diosa del amor y de la belleza. Los romanos la identificaron como
+					Venus. Finalmente Hermes era el encargado de cuidar al ganado. Se lo asociaba a la fertilidad,
+					música, engaño y suerte
+					además de ser un dios mensajero.
+				</p>
+				<a href="#" class="btn-1">Mas informacion</a>
+			</div>
+			<div class="imgs">
+				<img src="Imagenes/hera Logo.jpg" alt="">
+				<img src="Imagenes/afrodita logo.jpg" alt="">
+				<img src="Imagenes/hermes logo.jpg" alt="">
+			</div>
+		</div>
+		<div class="g-portfolio">
+			<section class="Portfolio">
+				<div class="g-portfolio">
+					<div class="portfolio-txt-1">
+						<h2>Ares, Atenea y Hefesto</h2>
+						<p>
+							Ares era el dios griego de la guerra. Se lo asociaba con la valentía, la tenacidad, la
+							fuerza y la
+							virilidad
+							masculina. Así pues, Atenea era la diosa griega que era protectora de la ciudad, de la razón, la artesanía,
+							sabiduría y
+							la guerra. Hefesto era el protector de los artesanos. Dominaba el fuego y se le daban muy
+							bien los trabajos de forja.
+						</p>
+						<a href="#" class="btn-1">Mas informacion</a>
+					</div>
+					<div class="imgs">
+						<img src="Imagenes/ares Logo.png" alt="">
+						<img src="Imagenes/atenea logo.jpg" alt="">
+						<img src="Imagenes/hefesto Logo.jpg" alt="">
+					</div>
+					<div class="g-portfolio">
+						<div class="g-portfolio">
+							<div class="portfolio-txt-1">
+								<h2>Artemisa, Apolo y Dionisio</h2>
+								<p>
+									Artemisa era representada como diosa de los animales salvajes, la caza, la
+									vegetación, la
+									castidad y partos. Era la hermana gemela de Apolo. Este mismo fue dios de la distancia divina, otro de sus
+									significados
+									lo plasman como deidad de las cosechas y rebaños. Por último, Dionisio fue el dios del vino, la fiesta y los excesos. Solía ir acompañado por
+									faunos y ninfas.
+								</p>
+								<a href="#" class="btn-1">Mas informacion</a>
+							</div>
+							<div class="imgs">
+								<img src="Imagenes/artemisa logo.jpg" alt="">
+								<img src="Imagenes/apolo logo.jpg" alt="">
+								<img src="Imagenes/dioniso logo.jpg" alt="">
+							</div>
+						</div>
+					</div>
+			</section>
+
+			<footer>
+				<div class="ft container">
+					<div class="enlace">
+						<h3>Email</h3>
+						<form>
+							<input type="text" class="btn-2">
+							<input type="submit" value="Enviar" class="btn-3">
+						</form>
+					</div>
+				</div>
+
+			</footer>
 </body>
 
-</html> 
+</html>
